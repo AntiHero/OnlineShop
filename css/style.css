@@ -1,0 +1,57 @@
+@import 'header.css';
+@import 'fonts.css';
+
+:root {
+  --main-color: #2f3035;
+  --main-font-family: 'SFProDisplay', sans-serif;
+  --main-font-weight: 400;
+  --main-line-height: 15px;
+  --main-font-size: 20px;
+  --main-container-width: 1200px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+body {
+  color: var(--main-color);
+  font-family: var(--main-font-family);
+  font-weight: var(--main-font-weight);
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-height);
+}
+
+.container {
+  max-width: var(--main-container-width);
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
