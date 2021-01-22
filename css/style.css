@@ -1,5 +1,5 @@
-@import 'header.css';
-@import 'fonts.css';
+@import './header.css';
+@import './fonts.css';
 
 :root {
   --main-color: #2f3035;
