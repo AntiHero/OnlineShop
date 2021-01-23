@@ -49,6 +49,6 @@
       "prettier --write",
       "stylelint --fix"
     ],
-    "*.{md,yml}": "prettier --write"
+    "*.{md,yml,html}": "prettier --write"
   }
 }
