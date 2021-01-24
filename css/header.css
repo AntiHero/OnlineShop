@@ -5,6 +5,10 @@
   --black-color: #000000;
 }
 
+.header {
+  margin-bottom: 78px;
+}
+
 .header__top-inner {
   display: flex;
   justify-content: space-between;
@@ -100,6 +104,10 @@
   width: 100%;
   right: auto;
   left: 0;
+}
+
+.menu-categories__item:hover {
+  color: var(--black-color);
 }
 
 .header__bottom {
