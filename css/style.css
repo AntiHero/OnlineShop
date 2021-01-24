@@ -10,6 +10,11 @@
   --main-line-height: 24px;
   --main-font-size: 20px;
   --main-container-width: 1200px;
+  --white-color: #ffffff;
+  --blue-color: #1c62cd;
+  --gray-color: #cdcdcd;
+  --light-gray-color: #f0f0f4;
+  --black-color: #000000;
 }
 
 html {
