@@ -14,4 +14,7 @@ module.exports = {
     semi: ['error', 'always'],
   },
   ignorePatterns: ['/js/libs/*.js'],
+  globals: {
+    $: true,
+  },
 };
