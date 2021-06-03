@@ -1,6 +1,7 @@
 @import './header.css';
-@import './banner-section.css';
 @import './custom_slick.css';
+@import './banner-section.css';
+@import './search-section.css';
 @import './fonts.css';
 
 :root {
@@ -31,6 +32,7 @@ a {
   text-decoration: none;
   color: inherit;
   outline: none;
+  display: inline-block;
 }
 
 p {
@@ -66,4 +68,8 @@ body {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.page-section {
+  margin-bottom: 80px;
 }
